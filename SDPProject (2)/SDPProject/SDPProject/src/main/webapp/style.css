@@ -1,0 +1,423 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #72c02c;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .logo {
+    max-width: 200px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 15px 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #72c02c;
+}
+
+/* Hero Section */
+.welcomeSection {
+    background-color: #fff;
+    padding: 60px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.welcomeSection h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+
+.welcomeSection p {
+    font-size: 1em;
+    text-align: justify;
+    color: #555;
+}
+
+.welcomeSection .btn-u {
+    background-color: #72c02c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.welcomeSection .btn-u:hover {
+    background-color: #5c9d24;
+}
+
+/* Specialities Section */
+.headline-center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.headline-center h2 {
+    font-size: 2.2em;
+    color: #333;
+}
+
+.headline-center .line {
+    width: 60px;
+    height: 3px;
+    background-color: #72c02c;
+    margin: 20px auto;
+}
+
+.content-boxes-v5 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.content-boxes-v5:hover {
+    transform: translateY(-10px);
+}
+
+.content-boxes-v5 i {
+    font-size: 50px;
+    color: #72c02c;
+    margin-bottom: 20px;
+}
+
+.content-boxes-v5 h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-boxes-v5 p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Pricing Section */
+.pricing-v9 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.pricing-v9:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-v9-head {
+    background-color: #72c02c;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pricing-v9-head h3 {
+    font-size: 1.6em;
+    margin: 0;
+}
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Page Heading */
+h2 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #4CAF50; /* Green background for the navbar */
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    background-color: #45a049; /* Slightly darker green when hovering */
+    transition: background-color 0.3s ease;
+}
+
+/* Links: Remove underline for all links inside the navbar */
+.navbar a:focus, .navbar a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+/* Center the navbar and make sure it stretches full width */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Adding margin to body to prevent navbar from covering content */
+body {
+    margin-top: 60px;
+}
+
+/* Main content styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Adding some space between the links and making the links stand out */
+.navbar a {
+    padding: 15px 25px;
+}
+
+.navbar a:hover {
+    background-color: #3e8e41;
+}
+
+/* Adding a simple footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.pricing-v9-price {
+    font-size: 1.5em;
+    color: #72c02c;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pricing-v9 ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-v9 ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Blog Section */
+.news-v1-in {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.news-v1-in:hover {
+    transform: translateY(-10px);
+}
+
+.news-v1-in img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news-v1-in h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-v1-in p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.news-v1-info {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+}
+
+.news-v1-info a {
+    color: #72c02c;
+    text-decoration: none;
+}
+
+.news-v1-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer-v1 {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-v1 .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-v1 .col-md-3 {
+    flex: 1;
+}
+
+.footer-v1 h2 {
+    font-size: 1.6em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-v1 p {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+.footer-v1 .link-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-v1 .link-list li {
+    margin-bottom: 10px;
+}
+
+.footer-v1 .link-list a {
+    color: #72c02c;
+    text-decoration: none;
+}
+
+.footer-v1 .link-list a:hover {
+    text-decoration: underline;
+}
+
+.footer-v1 .footer-socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-v1 .footer-socials li {
+    margin-left: 10px;
+}
+
+.footer-v1 .footer-socials a {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.footer-v1 .footer-socials a:hover {
+    color: #72c02c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .footer-v1 .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-v9 {
+        margin-bottom: 20px;
+    }
+
+    .news-v1-in {
+        margin-bottom: 20px;
+    }
+}
